@@ -1,0 +1,291 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>一杯提神醒脑</title>
+<style type="text/css">
+#app {
+	width: 1100px;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.box {
+	float: left;
+	width: 280px;
+	overflow: hidden;
+	background: #f6f6f6;
+	box-sizing: border-box;
+	margin-left: 20px;
+	padding-top: 0;
+	padding-right: 15px;
+	padding-bottom: 25px;
+	padding-left: 15px;
+	height: 400px;
+}
+#box-left{
+	margin-left: 14px;
+}
+
+.box a {
+	float:inherit;
+	
+	flex-direction: column;
+	align-items: center;
+	color: #535353;
+	text-decoration: none;
+
+}
+#jrcd {
+	margin-top: 5px;
+}
+.img-exhibition img:hover {
+}
+#cd {
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.box a:hover {
+    color: #e52d67;
+}
+
+.imgBox {
+    width: 280px;
+    height: 187px;
+    overflow: hidden;
+}
+
+.imgBox img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.6s linear;
+}
+
+.source {
+    border: 1px solid #535353;
+    padding: 6px 20px;
+    border-radius: 25px;
+    margin: 20px;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.detail {
+    font-size: 14px;
+    line-height: 160%;
+    text-align: justify;
+    width: 100%;
+}
+
+.box>a::after {
+	content: '';
+	width: 280px;
+	position:absolute;
+	background: #e52d67;
+	bottom: 0;
+	height: 0px;
+	transition: height 0.3s linear;
+   
+}
+
+
+.box:hover img {
+    transform: scale(1.15);
+}
+
+.box:hover .source {
+    background: #e52d67;
+    border-color: #e52d67;
+    color: #ffffff;
+}
+.exhibition{
+	width: 1100px;
+	height: 250px;
+
+	margin-right: auto;
+
+	margin-left: auto;
+	
+}
+.exhibition img{
+	width:200px;
+	height:200px;
+
+}
+.img-exhibition{
+	margin-top:25px;
+	width:200px;
+	height:200px;
+	margin-right:80px;
+	float:left;
+}
+.img-exhibition-first{
+	margin-left:30px;
+	margin-right:80px;
+	margin-top:25px;
+	width:200px;
+	height:200px;
+    float:left;
+}
+.img-exhibition-last{
+	margin-right:30px;
+	margin-top:25px;
+	width:200px;
+	height:200px;
+    float:left;
+}
+.exhibition-text{
+	width: 200px;
+	height: 25px;
+	text-align: center;
+	margin-top: 5px;
+}
+	
+.container {
+	padding: 0px;
+	height: 600px;
+	width: 1100px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-bottom: 40px;
+	margin-left: auto;
+}
+.introduce-left{
+	padding-top: 100px;
+	width: 300px;
+	margin-left: 25px;
+	margin-right: 25px;
+	height: 500px;
+	float: left;
+}
+.introduce-right{
+	width: 300px;
+	margin-left: 25px;
+	margin-top: 200px;
+	height: 450px;
+	float: left;
+}
+.introduce-mid{
+	
+	width:400px;
+	
+	height:600px;
+	float:left;
+}
+
+	
+</style>
+<link href="../css/banner-style.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+<body>
+
+ <div class="menus menus1">
+      <h1>营养早餐
+      </h1>
+      <ul>
+        <div class="bg"></div>
+            <li><span><a href="index.html" target="blank">首页</a></span></li>
+            <li><span><a href="xz.html">稀粥</a></span></li>
+            <li><span><a href="dumplings.html">饺子</a></span></li>
+            <li><span><a href="noodle.html">面条</a></span></li>
+            <li><span><a href="fired rice.html">炒饭</a></span></li>
+            <li><span><a href="drink.html">果汁</a></span></li>
+            <li><span><a href="bread.html">大饼</a></span></li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+ 
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script src="../js/index.js"></script>
+<div class="banenr">
+  <div class="banner-bg">
+    <h3>简单/美味/健康</h3>
+  </div></div>
+<div class="banner-x"><img src="../images/drink/banner.png" /></div>
+<div class="jrcd" id="jrcd"><img src="../images/index/jrms.png" /></div>
+ <div id="app">
+        <div class="box" id="box-left">
+            <a href="#">
+                <div class="imgBox">
+                    <img src="../images/drink/e1.jpg" alt="">
+                </div>
+                <span class="source">沁人心脾</span>
+                <h2 class="title">西瓜蜜桃汁</h2>
+          <p>1.西瓜，香瓜，桃子洗净去皮，去籽，切丁。</p>
+            <p>2.西瓜，香瓜，桃子丁放榨汁机中，加少许凉开水榨汁。</p>
+            <p>3.倒入杯子中加柠檬汁，蜂蜜，冰块搅拌均匀。</p></a>
+        </div>
+        <div class="box">
+            <a href="#">
+                <div class="imgBox">
+                    <img src="../images/drink/e2.jpg" alt="">
+                </div>
+                <span class="source">营养均衡</span>
+                <h2 class="title">西瓜火龙果汁</h2>
+            <p><em id="step_num1">1.</em>将一半西瓜，火龙果洗净后切成小块</p>
+            <p><em id="step_num2">2.</em>将剩下的原料加入搅拌机内，用最大档搅拌1分钟</p>
+            <p><em id="step_num3">3.</em>经过冰冻的果汁更加芳香、提神，共需要5分钟的准备时间&nbsp;</p></a>
+        </div>
+        <div class="box">
+            <a href="#">
+                <div class="imgBox">
+                    <img src="../images/drink/e3.jpg" alt="">
+                </div>
+                <span class="source">流连忘返</span>
+                <h2 class="title">蓝莓夏黑葡萄汁</h2>
+          
+            <p>1. 清水中加入约1汤匙的生粉，放入摘下的黑葡萄。</p></a>
+            <p>2. 用手顺时针在水中划圈冲洗一分钟，再用流水冲净。</p>
+            <p>3. 将蓝莓、葡萄依次放入榨汁机混合榨汁后饮用。</p></a>
+</div></div>
+<hr />
+
+
+
+    
+<div id="cd">    
+<div class="exhibition">
+<div class="img-exhibition-first"><img src="../images/drink/1.jpg" />
+<div class="exhibition-text">柠檬果汁</div></div>
+<div class="img-exhibition"><img src="../images/drink/2.jpg" /><div class="exhibition-text">草莓奶果汁 </div></div>
+<div class="img-exhibition"><img src="../images/drink/3.jpg" /><div class="exhibition-text">橙汁</div></div>
+<div class="img-exhibition-last"><img src="../images/drink/4.jpg" /><div class="exhibition-text">西柚果汁</div></div>
+</div>
+
+<div class="exhibition">
+<div class="img-exhibition-first"><img src="../images/drink/5.jpg" /><div class="exhibition-text">柠檬西瓜果汁</div></div>
+<div class="img-exhibition"><img src="../images/drink/6.jpg" /><div class="exhibition-text">草莓冰冷饮 </div></div>
+<div class="img-exhibition"><img src="../images/drink/7.jpg" /><div class="exhibition-text">草莓果汁</div></div>
+<div class="img-exhibition-last"><img src="../images/drink/8.jpg" /><div class="exhibition-text">三色果汁</div></div>
+</div></div>
+<hr />
+
+<div class="container">
+<div class="introduce-left"><img src="../images/drink/q1.png" /></div>
+<div class="introduce-mid"><img src="../images/drink/000.png" /></div>
+<div class="introduce-right"><img src="../images/drink/q2.png" /></div>
+
+</div>
+
+<footer>
+  <div id="footer">
+	<p>Copyright @ 2008-2018 YINGYANGZAOCAN.com, A11 rights reserved.</p>
+	<p>2020-2030，版权所有营养早餐5CP 备2013146</p>
+	<p>联系作者QQ;2837091387</p>
+  </div>
+
+</footer>
+</body>
+</html>

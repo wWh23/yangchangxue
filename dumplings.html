@@ -1,0 +1,285 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>好吃不过饺子</title>
+<style>
+    * { margin: 0; padding: 0; }
+    body {
+    font-family: "Microsoft Yahei";
+    font-size: 14px;
+    color: #333;
+    background-color: #E4E1E1;
+}
+    a, a:hover { text-decoration: none; color: #333; }
+    ul, li { list-style: none; }
+	svg{
+	    fill: currentColor;
+	}
+    .mt-tabpage {
+  
+    width: 1100px;
+    margin: 30px auto;
+    box-shadow: 0 0 5px #999;
+    background-color: #FFFFFF;
+    }
+	.mt-tabpage img:hover {
+	font-size: 20px;
+	 transform: scale(1.1);
+}
+    .mt-tabpage-title {
+	height: 44px;
+	font-size: 0;
+	background-color: #fff;
+	width: 94%;
+	margin: auto;
+	background: #fff;
+	border-bottom: 1px solid #f1f1f1;
+	text-align: center;
+    }
+    .mt-tabpage-title .mt-tabpage-item {
+	display: inline-block;
+	width: 105px;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	color: #666;
+	font-size: 20px;
+    }
+    .mt-tabpage-title .mt-tabpage-item:hover{
+    	color: #eb4537;
+    }
+    .mt-tabpage-title .mt-tabpage-item-cur {
+	color: #eb4537;
+	font-size: 24px;
+	border-bottom: 1px solid #F85B5E;
+    }
+    .mt-tabpage-count {
+      	position: relative;
+      	width: 1100px;
+      	height: 340px;
+      	overflow: hidden;
+    }
+    .mt-tabpage-cont__wrap {
+      	position: absolute;
+    }
+    .mt-tabpage-count .mt-tabpage-item {
+      	width: 1100px;
+      	height: 340px;
+      	
+      	text-align: center;
+
+    }
+	.slide-content{
+		padding:0px;
+		height:340px;
+		width:300px;
+		float:left;
+		margin-left:50px;
+	}
+	.slide-content-text{
+	height: 32px;
+	margin-top: 0px;
+	padding-top: 8px;
+	font-size: 20px;
+	}
+	.main-container{
+	max-width: 1100px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+	}
+	.card{
+	height: 460px;
+	width: 1100px;
+	margin-bottom: 50px;
+	border: 2px solid #00F;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	}
+	.card-img-left{
+	width:600px;
+	height:450px;
+	float:left;
+	overflow:auto;
+    }
+	.card-text{
+	width: 460px;
+	margin: 0 20px;
+	height: 450px;
+	float: right;
+	position: relative;
+    }
+	.btn {
+	font-size: 24px;
+	vertical-align: sub;
+	text-align: justify;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	border: 2px solid #F00;
+}
+.card .card-text p {
+	font-family: "微软雅黑";
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: 30px;
+}
+.card .card-text h3 {
+	font-family: "微软雅黑";
+	font-size: 36px;
+	text-align: center;
+}
+.banner-x{
+	width: auto;
+	height: 650px;
+	background-image: url(../images/dumpling/banner.png);
+}
+	
+  </style>
+<link href="../css/banner-style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+ <div class="menus menus1">
+      <h1>营养早餐
+      </h1>
+      <ul>
+        <div class="bg"></div>
+            <li><span><a href="index.html" target="blank">首页</a></span></li>
+            <li><span><a href="xz.html">稀粥</a></span></li>
+            <li><span><a href="dumplings.html">饺子</a></span></li>
+            <li><span><a href="noodle.html">面条</a></span></li>
+            <li><span><a href="fired rice.html">炒饭</a></span></li>
+            <li><span><a href="drink.html">果汁</a></span></li>
+            <li><span><a href="bread.html">大饼</a></span></li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+ 
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script src="../js/index.js"></script>
+<div class="banenr">
+  <div class="banner-bg">
+    <h3>简单/美味/健康</h3>
+  </div></div>
+  
+<div class="banner-x"></div> 
+
+<div class="mt-tabpage" js-tab="2">
+		<div class="mt-tabpage-title">
+			<a href="javascript:;" class="mt-tabpage-item mt-tabpage-item-cur">包子</a>
+			<a href="javascript:;" class="mt-tabpage-item">饺子</a>
+			<a href="javascript:;" class="mt-tabpage-item">馄饨</a>
+		</div>
+		<div class="mt-tabpage-count">
+			<ul class="mt-tabpage-cont__wrap">
+				<li class="mt-tabpage-item">
+                    <div class="slide-content"><img src="../images/dumpling/b1.jpg" />
+                  <div class="slide-content-text">生煎包</div></div>
+                    <div class="slide-content"><img src="../images/dumpling/b2.jpg" />
+                                               <div class="slide-content-text">小笼包</div></div>
+                    <div class="slide-content"><img src="../images/dumpling/b3.jpg" />
+                                               <div class="slide-content-text">灌汤包</div></div>
+                </li>
+				<li class="mt-tabpage-item">
+                    <div class="slide-content"><img src="../images/dumpling/j1.jpg" />
+                                               <div class="slide-content-text">煎饺</div></div>
+                    <div class="slide-content"><img src="../images/dumpling/j2.jpg" />
+                                               <div class="slide-content-text">水饺</div></div>
+                    <div class="slide-content"><img src="../images/dumpling/j3.jpg" />
+                                               <div class="slide-content-text">蒸饺</div></div></li>
+				<li class="mt-tabpage-item">
+                    <div class="slide-content"><img src="../images/dumpling/h1.jpg" />
+                                               <div class="slide-content-text">海鲜混沌</div></div>
+                    <div class="slide-content"><img src="../images/dumpling/h2.jpg" />
+                                               <div class="slide-content-text">红油抄手</div></div>
+                    <div class="slide-content"><img src="../images/dumpling/h3.jpg" />
+                                               <div class="slide-content-text">炒抄手</div></div></li>
+			</ul>
+		</div>
+	</div>
+    
+ 
+<script src="../js/jquery-3.1.1.min.js"></script>
+<script src="../js/mt-tabpage.js"></script>
+    
+<script>
+    $(function () {
+      $('[js-tab=2]').tab({
+        curDisplay: 1,
+        changeMethod: 'horizontal'
+      });
+		
+	  $('[js-tab=3]').tab({
+        curDisplay: 1,
+        changeMethod: 'horizontal'
+      });
+    });
+  </script>
+  
+  <div class="jrcd"><img src="../images/index/jrms.png" /></div>
+  <div class="main-container">
+  
+   <div class="card"><div class="card-img-left"><img src="../images/dumpling/01.jpg" /></div>
+<div class="card-text">
+  <h3>牛肉芹菜包</h3>
+  <p>1将姜切末、芹菜切成细末。<br />
+    2将牛肉洗净，切细备用。<br />
+    3锅内注花生油烧热，放入豆瓣酱，炒酥后起锅。<br />
+    4在牛肉、姜末、芹菜末中放入盐、白糖、豆瓣酱、江米酒，搅拌均匀，制成馅料。<br />
+    5面粉加酵母、温水揉匀。<br />
+    6面团发起，兑入适量碱揉匀，擀成大小均匀圆皮。<br />
+    7馅料放入圆皮的中间，收边捏紧，制成包子生坯。<br />
+    8将包子生坯摆入屉中。<br />
+    9用旺火沸水蒸熟，取出装盘即可。</p>
+     <a href="#" class="btn">了解更多</a> </div></div>
+</div></div>
+   
+    <div class="card"><div class="card-img-left"><img src="../images/dumpling/03.jpg" /></div>
+<div class="card-text">
+  <h3>萝卜鲜虾饺</h3>
+  <p>1将葱、姜洗净切末。<br />
+    2将白萝卜洗净，切丝，焯一下，过凉剁碎，挤干。<br />
+    3将香菇洗净沥干，切碎。<br />
+    4将虾米泡好，剁碎。<br />
+    5将萝卜碎、葱末、姜末、盐、味精、白糖、胡椒粉、香油、猪油拌匀，制成馅料。<br />
+    6面粉加水和成面团，汤好，搓成长条。<br />
+    7将长条切成剂子，擀成大小均匀、边缘较薄，中间略厚的饺子皮。<br />
+    8包入馅料，捏成饺子生坯。<br />
+    9锅内注水烧热，放入饺子生坯煮熟。<br />
+    10煮熟后取出盛盘即可。</p> 
+   <a href="#" class="btn">了解更多</a> </div></div>
+   
+    <div class="card"><div class="card-img-left"><img src="../images/dumpling/02.jpg" /></div>
+<div class="card-text">
+  <h3>老麻抄手</h3>
+  <p>1肉末放入鸡蛋、姜末、胡椒粉、盐，使劲向一个方向搅拌。再放入葱花、香油拌匀。<br />
+     2抄手包好放入盘中。<br />
+     3把葱花切好，待用。将姜蓉、蒜蓉、胡椒面、鸡精、黑、胡椒粉、香醋、酱油、红油、香油入碗，加入骨头汤和鸡汤。 <br />
+     4水烧开，先把蔬菜煮熟，放入作料碗里边。<br />
+     5水开放入抄手，抄手浮起来就代表熟了，汤底加入两勺面汤搅拌均匀，把熟抄手水分沥干放入碗中</p> 
+   <a href="#" class="btn">了解更多</a> </div></div>
+  
+  
+  
+  </div>
+
+<footer>
+  <div id="footer">
+	<p>Copyright @ 2008-2018 YINGYANGZAOCAN.com, A11 rights reserved.</p>
+			<p>2020-2030，版权所有营养早餐5CP 备2013146</p>
+			<p>联系作者QQ;2837091387</p>
+  </div>
+
+</footer>
+</body>
+</html>
